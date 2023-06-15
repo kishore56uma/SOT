@@ -1,0 +1,542 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: h1;
+    src: url(Beckman-Free.otf);
+}
+@font-face {
+    font-family: h2;
+    src: url(Antipasto-Pro-ExtraLight-trial.ttf);
+}
+@font-face {
+    font-family: shop now;
+    src: url(AlteHaasGroteskRegular.ttf);
+}
+
+.main
+{
+    height: auto;
+    width: auto;
+    
+}
+.navbar
+{
+    height: 60px;
+    width: 1520px;
+    font-family:navbar;
+    position: fixed;
+    background-color:rgba(0, 0, 0,0);
+    position: -webkit-sticky;
+    display: inline-block;
+    transition: 0.6s ease;
+    opacity: 0.9;
+    
+    
+}
+.logo
+{
+    height: 50px;
+    width: 239px;
+    margin-left: 30px;
+    MARGIN-TOP: 5PX;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin-top: -46px;
+    margin-left: 550px;
+    
+}
+ul li{
+      display: inline-block;
+}
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: shop now;
+    cursor: pointer;
+}
+ul li a:hover{
+    color:white
+}
+.firstpage
+{
+    height: 800px;
+    width: 1520px;
+    /* border: 1px solid black; */
+    margin-top: 56px;
+    display: inline-block;
+    background-image:url(portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-green-sweater-jeans-fashion-male-posing-studio-near-grey-wall\ \(1\).jpg);
+    background-size: cover;
+    margin-top: -17px;
+}
+.icon
+{
+    float: right;
+    height: 46px;
+    width: 44px;
+    display: flex;
+    padding: 9px;
+    margin-top: -32px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+#p1{
+   
+    display: inline-block;
+    margin-top: 256px;
+    margin-left: 302px;
+    font-size: 15px;
+    font-family: shop now;
+    text-decoration: underline;
+}
+#p2{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 174px;
+    font-family: shop now;
+}
+#h1{
+    font-size: 70px;
+    margin-top: 5px;
+    margin-left: 262px;
+    font-family: h1;}
+#h2{
+    font-size: 70px;
+    margin-top: 9px;
+    margin-left: 184px;
+    font-family: h2;
+}
+.btn{
+    margin-left: 357px;
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.secondpage
+{
+    height: 430px;
+    width: 1520;
+    /* border: 1px solid black; */
+    background-color: #ECE3DE;
+}
+.box1{
+    height: 380px;
+    width: 450px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 10px;
+    margin-left: 18px;
+    background-image: url(casual.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box2{
+    height: 380px;
+    width: 450px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 10px;
+    margin-left: 60px;
+    background-image: url(formal.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box3{
+    height: 380px;
+    width: 450px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 10px;
+    margin-left: 63px;
+    background-image: url(strong-guy-with-muscular-body-workout-near-fence-morning-stadium-he-wears-sport-clothes-listening-music-with-headphones.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1:hover{
+    transform: scale(1.02);
+}
+.box2:hover{
+    transform: scale(1.02);
+}
+.box3:hover{
+    transform: scale(1.02);
+}
+#h{
+    margin-top: 43px;
+    margin-left: 7px;
+    font-size: 20px;
+    font-family: h1;
+    color: white;
+    font-weight: 100;}
+.thirdpage{
+    height: 1796px;
+    width: 1520px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    background-color: #ECE3DE;
+}
+.p1{
+    height: 570px;
+    margin-left: 160px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    background-color: #ECE3DE;
+}
+.p2{
+    height: 570px;
+    margin-left: 160px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    background-color: #ECE3DE;
+}
+.p3{
+    height: 570px;
+    margin-left: 160px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    background-color: #ECE3DE;
+}
+
+.boxx1{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 65px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx2{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}.boxx3{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}.boxx4{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.boxx5{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-top: 65px;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx6{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-left: 30px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}.boxx7{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-left: 30px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx8{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-left: 30px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx9{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-top: 65px;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx10{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    
+    margin-left: 30px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}.boxx11{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+   
+    margin-left: 30px;
+    margin-top: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s ease;
+}.boxx12{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+    margin-top: 65px;
+    
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.boxx1:hover{
+    transform: scale(1.05);
+}
+.boxx2:hover{
+    transform: scale(1.05);
+}
+.boxx3:hover{
+    transform: scale(1.05);
+}
+.boxx4:hover{
+    transform: scale(1.05);
+}
+.boxx5:hover{
+    transform: scale(1.05);
+}
+.boxx6:hover{
+    transform: scale(1.05);
+}
+.boxx7:hover{
+    transform: scale(1.05);
+}
+.boxx8:hover{
+    transform: scale(1.05);
+}
+.boxx9:hover{
+    transform: scale(1.05);
+}
+.boxx10:hover{
+    transform: scale(1.05);
+}
+.boxx11:hover{
+    transform: scale(1.05);
+}
+.boxx12:hover{
+    transform: scale(1.05);
+}
+
+.wish{
+    height: 46px;
+    width: 44px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+#cas{
+    font-family: "shop now";
+    font-size: 21px;
+    margin-top: 27px;
+    margin-left: 512px;
+}
+
+.price
+{
+    height: 89px;
+    width: 249px;
+    /* border: 1px solid black; */
+    display: inline-block;
+}
+.image1{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(casual\ mens\ wear\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(casual\ mens\ wear\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(casual\ mens\ wear\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image4{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(caual\ mens\ wear\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image5{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(formals\ img\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image6{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(formals\ img\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image7{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(formals\ img\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image8{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(formals\ img\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image9{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(SPORTS\ WEAR\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image10{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(SPORTS\ WEAR\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image11{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(SPORTS\ WEAR\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.image12{
+    height: 344px;
+    width: 250px;
+    border: 1px solid black;
+    display: inline-block;
+    background-image: url(SPORTS\ WEAR\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Rs{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.btnadd{
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin-top: 17px;
+    margin-left: 64px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btnadd:hover{
+            background-color: black;
+            color: white;
+}
